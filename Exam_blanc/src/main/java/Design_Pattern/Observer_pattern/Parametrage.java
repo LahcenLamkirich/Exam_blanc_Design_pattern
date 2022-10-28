@@ -19,6 +19,8 @@ public class Parametrage implements Observable {
 
     @Override
     public void notifyObserver() {
-
+        for(Observer observer: ListObservers){
+            observer.update(this);
+        }
     }
 }
