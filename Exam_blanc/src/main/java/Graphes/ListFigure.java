@@ -24,6 +24,8 @@ public class ListFigure extends Figure {
 
     @Override
     public void dessinerFigure() {
-
+        for(Figure figure: listFigures){
+            figure.dessinerFigure();
+        }
     }
 }
