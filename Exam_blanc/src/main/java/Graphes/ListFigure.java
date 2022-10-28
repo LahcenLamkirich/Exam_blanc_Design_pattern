@@ -1,14 +1,9 @@
 package Graphes;
 
-public class Cercle extends Figure{
-
-    Point point ;
-    private double rayon;
-
-
+public class ListFigure extends Figure {
     @Override
     public double calculerSurface() {
-        return Math.PI*Math.pow(rayon,2);
+        return 0;
     }
 
     @Override
