@@ -5,6 +5,10 @@ import java.util.List;
 
 public class Parametrage implements Observable {
 
+    int couleurContour = 12 ;
+    int couleutRemplissage = 15;
+    int episseurContour = 17 ;
+
     List<Observer> ListObservers = new ArrayList<>();
 
     @Override
