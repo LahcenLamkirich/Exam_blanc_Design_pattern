@@ -25,7 +25,6 @@ public class Rectangle extends Figure{
 
     @Override
     public void dessinerFigure() {
-        System.out.println("Rectangle("+point.getX()+","+point.getY()+","+largeur+
-                ","+hauteur+","+super.toString()+")");
+        System.out.println("This is a Rectangle !!");
     }
 }

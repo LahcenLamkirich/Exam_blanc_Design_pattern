@@ -13,11 +13,11 @@ public class Cercle extends Figure{
 
     @Override
     public double calculerPerimetre() {
-        return 0;
+        return 2*Math.PI*rayon;
     }
 
     @Override
     public void dessinerFigure() {
-
+        System.out.println("This is a Cercle !!");
     }
 }
